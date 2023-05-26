@@ -18,7 +18,7 @@ if (cross) {
 }
 
 /* Cart */
-let cartIcon = document.querySelector('#lg-bag');
+let cartIcon = document.querySelector('.lg-bag');
 let cart = document.querySelector('.cart-details');
 let closeCart = document.querySelector('#close-cart');
 

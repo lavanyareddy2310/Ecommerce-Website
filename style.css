@@ -225,9 +225,9 @@
     cursor: pointer;
 }
 
-
+/* here */
 .banner_slider .slide {
-    background: url('https://preview.colorlib.com/theme/malefashion/img/hero/hero-1.jpg.webp') no-repeat top center/cover;
+    background: url('img/slides1.webp') no-repeat top center/cover;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -235,11 +235,11 @@
 }
 
 .banner_slider .slide_two {
-    background: url('https://preview.colorlib.com/theme/fashi/img/hero-1.jpg.webp') no-repeat top center/cover;
+    background: url('img/slide2.webp') no-repeat top center/cover;
 }
 
 .banner_slider .slide_three {
-    background: url('https://preview.colorlib.com/theme/cozastore/images/slide-03.jpg.webp') no-repeat top center/cover;
+    background: url('img/slide3.webp') no-repeat top center/cover;
 }
 
 .slide_content {
@@ -644,7 +644,7 @@ footer a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url("https://raw.githubusercontent.com/tech2etc/Build-and-Deploy-Ecommerce-Website/main/img/about/banner.png");
+    background-image: url("img/contact/banner.png");
     height: 290px;
     background-size: cover;
     width: 100%;
@@ -931,7 +931,7 @@ footer a:hover {
 .blog-banner {
     margin: 40px 0;
     height: 300px;
-    background-image: url("https://raw.githubusercontent.com/tech2etc/Build-and-Deploy-Ecommerce-Website/main/img/banner/b1.jpg");
+    background-image:url('img/bannerboys.jpg');
     display: flex;
     flex-direction: column;
     justify-content: center;

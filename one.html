@@ -4,17 +4,70 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>one</title>
     <link rel="stylesheet" href="shop.css">
      <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
          integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+         <script src="https://kit.fontawesome.com/6dabbfe48e.js" crossorigin="anonymous"></script>    
 </head>
 <body>
 
-    <div class="prod">
-        <img src="https://images.bewakoof.com/t640/men-s-green-jesus-said-just-chill-graphic-printed-oversized-sweatshirt-564926-1672129287-1.jpg" alt="">
+    <!-- NavBar-->
+    <section id="header">
+        <a href="#"><img src="img/logo.png" class="logo" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="blog.html">Blogs</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a class="active" href="contact.html">Contact</a></li>
+                <li class="lg-bag"><a href="#"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <a href="#" id="close"><i class="fa-solid fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <!-- <a href="#" class="lg-bag"><i class="fa-solid fa-bag-shopping"></i></a> -->
+            <i id="bar" class="fa-solid fa-bars"></i>
+        </div>
+        <div class="cart-details">
+            <div class="cart-title">
+                <h4>Your Cart</h4>
+            </div>
+            <div class="card-content">
+                <div class="cart-box">
+                    <img src="https://images.bewakoof.com/t640/men-s-green-jesus-said-just-chill-graphic-printed-oversized-sweatshirt-564926-1672129287-1.jpg"
+                        alt="" class="cart-img">
+                    <div class="detail-box">
+                        <div class="cart-prod-title">
+                            Men's Blue Peace Oversized T-shirt
+                        </div>
+                        <div class="cart-price">
+                            Rs. 599
+                        </div>
+                        <input type="number" value="1" class="cart-quantity" min="0">
+                    </div>
+                    <i class="fa-solid fa-trash cart-remove"></i>
+                </div>
+            </div>
+            <div class="total">
+                <div class="total-title">
+                    <p>Total: </p>
+                </div>
+                <div class="total-price">
+                    <p>Rs. 0</p>
+                </div>
+            </div>
+            <button class="normal btn-buy btn">Buy Now</button>
+            <i id="close-cart" class="fas fa-times"></i>
 
+        </div>
+    </section>
+
+
+    <div class="prod">
+        <img src="img/Men/1.png" alt="">
         <div class="product-info">
             <h6>adidas</h6>
             <h4>Men's Green Tribe</h4>
@@ -50,7 +103,7 @@
         <div class="products">
             <div class="pro" onclick="window.location.href='first.html'">
                 <div class="imagess">
-                    <img src="https://cdn.shopify.com/s/files/1/0905/2012/files/C01_e5eb17a3-57ac-4740-8d8b-66b7ac8c6872.jpg?v=1603354791"
+                    <img src="img/Women/1.webp"
                         alt="">
                 </div>
 
@@ -75,7 +128,7 @@
 
             <div class="pro" onclick="window.location.href='second.html'">
                 <div class="imagess">
-                    <img src="https://images.bewakoof.com/t640/women-s-black-dope-shit-typography-boyfriend-t-shirt-486586-1655749653-1.jpg"
+                    <img src="img/Women/2.webp"
                         alt="">
                 </div>
 
@@ -99,10 +152,8 @@
             </div>
 
             <div class="pro" onclick="window.location.href='third.html'">
-                <div class="imagess">
-                    <img src="https://images.bewakoof.com/t640/women-s-beige-all-over-printed-crop-shirt-500251-1655989913-1.jpg"
+                <img src="img/Women/3.webp"
                         alt="">
-                </div>
 
                 <div class="pro-elem"><br>
                     <div class="title">CHANEL</div>
@@ -124,10 +175,8 @@
             </div>
 
             <div class="pro" onclick="window.location.href='fourth.html'">
-                <div class="imagess">
-                    <img src="https://img.abercrombie.com/is/image/anf/KIC_152-3127-1449-130_model1?policy=product-medium"
+                <img src="img/Women/4.png"
                         alt="">
-                </div>
 
                 <div class="pro-elem"><br>
                     <div class="title">ZARA</div>
@@ -150,5 +199,6 @@
         </div>
     </section>
 
+    <script src="script.js"></script>
 </body>
 </html>

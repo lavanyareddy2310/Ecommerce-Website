@@ -4,17 +4,71 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>second</title>
      <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
          integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
      <link rel="stylesheet" href="shop.css">
+     <script src="https://kit.fontawesome.com/6dabbfe48e.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
-    <div class="prod">
-        <img src="https://images.bewakoof.com/t640/women-s-black-dope-shit-typography-boyfriend-t-shirt-486586-1655749653-1.jpg" alt="">
+    <section id="header">
+        <a href="#"><img src="img/logo.png" class="logo" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="blog.html">Blogs</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a class="active" href="contact.html">Contact</a></li>
+                <li class="lg-bag"><a href="#"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <a href="#" id="close"><i class="fa-solid fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <!-- <a href="#" class="lg-bag"><i class="fa-solid fa-bag-shopping"></i></a> -->
+            <i id="bar" class="fa-solid fa-bars"></i>
+        </div>
+        <div class="cart-details">
+            <div class="cart-title">
+                <h4>Your Cart</h4>
+            </div>
+            <div class="card-content">
+                <div class="cart-box">
+                    <img src="https://images.bewakoof.com/t640/men-s-green-jesus-said-just-chill-graphic-printed-oversized-sweatshirt-564926-1672129287-1.jpg"
+                        alt="" class="cart-img">
+                    <div class="detail-box">
+                        <div class="cart-prod-title">
+                            Men's Blue Peace Oversized T-shirt
+                        </div>
+                        <div class="cart-price">
+                            Rs. 599
+                        </div>
+                        <input type="number" value="1" class="cart-quantity" min="0">
+                    </div>
+                    <i class="fa-solid fa-trash cart-remove"></i>
+                </div>
+            </div>
+            <div class="total">
+                <div class="total-title">
+                    <p>Total: </p>
+                </div>
+                <div class="total-price">
+                    <p>Rs. 0</p>
+                </div>
+            </div>
+            <button class="normal btn-buy btn">Buy Now</button>
+            <i id="close-cart" class="fas fa-times"></i>
 
+        </div>
+    </section>
+
+
+
+
+
+    <div class="prod">
+        <img src="img/Women/2.webp" alt="">
         <div class="product-info">
             <h6>MANGO</h6>
             <h4>Fragile print</h4>
@@ -50,7 +104,7 @@
         <div class="products">
             <div class="pro" onclick="window.location.href='one.html'">
                 <div class="imagess">
-                    <img src="https://images.bewakoof.com/t640/men-s-green-jesus-said-just-chill-graphic-printed-oversized-sweatshirt-564926-1672129287-1.jpg"
+                    <img src="img/Men/1.png"
                         alt="">
                 </div>
 
@@ -75,7 +129,7 @@
 
             <div class="pro" onclick="window.location.href='two.html'">
                 <div class="imagess">
-                    <img src="https://images.bewakoof.com/t320/men-s-green-lost-reality-typography-super-loose-fit-hoodie-504132-1670935974-1.jpg"
+                    <img src="img/Men/2.webp"
                         alt="">
                 </div>
 
@@ -100,7 +154,7 @@
 
             <div class="pro" onclick="window.location.href='three.html'">
                 <div class="imagess">
-                    <img src="https://images-do.nyc3.cdn.digitaloceanspaces.com/lAVtCJXFVr/product_images/1622185457.BKT00109.jpeg"
+                    <img src="img/Men/3.jpeg"
                         alt="">
                 </div>
 
@@ -125,7 +179,7 @@
 
             <div class="pro" onclick="window.location.href='four.html'">
                 <div class="imagess">
-                    <img src="https://images.bewakoof.com/t640/men-black-aop-oversized-hoodie-504083-1669641674-1.jpg"
+                    <img src="img/Men/4.webp"
                         alt="">
                 </div>
 
@@ -149,5 +203,7 @@
             </div>
         </div>
     </section>
+
+    <script src="script.js"></script>
 </body>
 </html>
