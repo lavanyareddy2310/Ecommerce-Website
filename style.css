@@ -1221,8 +1221,18 @@ footer a:hover {
         justify-content: center;
     }
 
+    
     .banner_slider .slide {
         padding-left: 45px;
+        background-position: left;
+    }
+
+    .banner_slider .slide_two {
+        background-position: left;
+    }
+    
+    .banner_slider .slide_three {
+        background-position: left;
     }
 
     .slide_content .btn {
